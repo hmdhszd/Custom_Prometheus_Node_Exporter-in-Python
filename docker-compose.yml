@@ -1,0 +1,10 @@
+version: "3.9"
+   
+services:
+  custom-exporter-in-python:
+    build: .
+    command: python python-node-exporter.py
+    ports:
+      - "9999:9999"
+    volumes:
+      - "./app:/usr/src/app:rw"

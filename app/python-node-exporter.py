@@ -13,7 +13,7 @@ def GetDataFunc():
         #----------------------------------------------------------------------------------
         #               in this part, i'll get some data from an API
         #
-        #					and put it into "metricsDictionary"
+        #               and put it into "metricsDictionary"
         #
         #              you can remove this part and add your own script
         #
